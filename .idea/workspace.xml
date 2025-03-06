@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/scikit-learn.org/1. Supervised learning/1.1. Linear Models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/2.Linear Regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/1.Linear Regression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +48,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.1.1. Linear Models.executor": "Run",
+    "Python.2.Linear Regression.executor": "Run",
+    "Python.Linear Regression.executor": "Run",
     "Python.tester.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,7 +85,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741121308082</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1741134404581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741134404581</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1741212431527</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741212431527</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

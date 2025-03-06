@@ -44,17 +44,93 @@ max,-114.31,41.95,52.0,39320.0,6445.0,35682.0,6082.0,15.0001,500001.0
 
 df = df.dropna()
 
-X = df[["total_bedrooms"]]
-y = df["median_income"]
+y = df["housing_median_age"]
+X = df[['median_income']]
 
-from sklearn.model_selection import train_test_split
+reg = LinearRegression().fit(X,y)
 
-X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_state=13)
+reg_score = reg.score(X,y)
+print(reg_score)
 
-lr = LinearRegression()
-lr.fit(X_train,y_train)
 
-print(lr.score(X_train, y_train))
 
-print(lr.score(X_test, y_test))
+
+
+
+
+NEAR_BAY_df = df[df["ocean_proximity"] == "NEAR BAY"]
+
+
+y = NEAR_BAY_df["housing_median_age"]
+X = NEAR_BAY_df[['median_income']]
+
+reg = LinearRegression().fit(X,y)
+
+reg_score = reg.score(X,y)
+
+print(reg_score)
+#0.034137456895427465
+
+
+
+
+
+
+
+
+Correlate_df = df
+
+Correlate_df['Rank'] = df["ocean_proximity"].rank(method="dense")
+
+print(Correlate_df)
+"""
+       longitude  latitude  ...  ocean_proximity  Rank
+0        -122.23     37.88  ...         NEAR BAY   4.0
+1        -122.22     37.86  ...         NEAR BAY   4.0
+2        -122.24     37.85  ...         NEAR BAY   4.0
+3        -122.25     37.85  ...         NEAR BAY   4.0
+4        -122.25     37.85  ...         NEAR BAY   4.0
+...          ...       ...  ...              ...   ...
+20635    -121.09     39.48  ...           INLAND   2.0
+20636    -121.21     39.49  ...           INLAND   2.0
+20637    -121.22     39.43  ...           INLAND   2.0
+20638    -121.32     39.43  ...           INLAND   2.0
+20639    -121.24     39.37  ...           INLAND   2.0
+"""
+
+
+
+print(Correlate_df[Correlate_df["ocean_proximity"] == "INLAND"])
+"""
+      longitude  latitude  ...  ocean_proximity  Rank
+954      -121.92     37.64  ...           INLAND   2.0
+957      -121.90     37.66  ...           INLAND   2.0
+965      -121.88     37.68  ...           INLAND   2.0
+967      -121.88     37.67  ...           INLAND   2.0
+968      -121.88     37.67  ...           INLAND   2.0
+...          ...       ...  ...              ...   ...
+20635    -121.09     39.48  ...           INLAND   2.0
+20636    -121.21     39.49  ...           INLAND   2.0
+20637    -121.22     39.43  ...           INLAND   2.0
+20638    -121.32     39.43  ...           INLAND   2.0
+20639    -121.24     39.37  ...           INLAND   2.0
+"""
+
+
+y = df['median_house_value']
+X = df[["Rank"]]
+
+reg = LinearRegression().fit(X,y)
+
+reg_score = reg.score(X,y)
+print(reg_score)
+
+plt.scatter(X,y)
+
+plt.show()
+
+
+
+
+
 
