@@ -58,6 +58,9 @@ print(reg_score)
 
 
 
+
+
+
 NEAR_BAY_df = df[df["ocean_proximity"] == "NEAR BAY"]
 
 
@@ -70,6 +73,8 @@ reg_score = reg.score(X,y)
 
 print(reg_score)
 #0.034137456895427465
+
+
 
 
 
@@ -117,8 +122,8 @@ print(Correlate_df[Correlate_df["ocean_proximity"] == "INLAND"])
 """
 
 
-y = df['median_house_value']
-X = df[["Rank"]]
+y = df["Rank"]
+X = df[['median_house_value']]
 
 reg = LinearRegression().fit(X,y)
 
