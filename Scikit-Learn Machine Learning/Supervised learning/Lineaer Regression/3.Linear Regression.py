@@ -44,6 +44,7 @@ import seaborn as sns
 
 sns.regplot(x = X, y = y)
 
+#ci = Confidence Interval
 #Or sns.regplot(x = X, y = y, ci=None)
 
 #plt.show()
