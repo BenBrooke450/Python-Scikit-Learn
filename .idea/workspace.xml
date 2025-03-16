@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression/5.model.predict().py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression/6.score().py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/2.Logistic Regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/3.accuracy_score() &amp; confusion_matrix().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/K-Nearest Neighbors (kNN)/1.K-Nearest Neighbors (kNN).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/1.Linear Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression/1.Linear Regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/2.Linear Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression/2.Linear Regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/3.Linear Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression/3.Linear Regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/4.Linear Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression/4.Linear Regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/1.Logistic Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/1.Logistic Regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/2.Logistic Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/2.Logistic Regression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,21 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.1.1. Linear Models.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.Logistic Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.Linear Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.Linear Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.Linear Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5.Model.predict.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Linear Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tester.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1.1. Linear Models.executor": "Run",
+    "Python.1.Logistic Regression.executor": "Run",
+    "Python.2.Linear Regression.executor": "Run",
+    "Python.2.Logistic Regression.executor": "Run",
+    "Python.3.Linear Regression.executor": "Run",
+    "Python.4.Linear Regression.executor": "Run",
+    "Python.5.Model.predict.executor": "Run",
+    "Python.Linear Regression.executor": "Run",
+    "Python.tester.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression" />
@@ -144,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741910305927</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742159862256</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742159862256</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
