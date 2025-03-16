@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/3.Linear Regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/1.Linear Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/1.Linear Regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/2.Linear Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/2.Linear Regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression/5.model.predict().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression/6.score().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/2.Logistic Regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/3.accuracy_score() &amp; confusion_matrix().py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/1.Linear Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression/1.Linear Regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/2.Linear Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression/2.Linear Regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/3.Linear Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression/3.Linear Regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression/4.Linear Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression/4.Linear Regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/1.Logistic Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/1.Logistic Regression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "BenBrooke450"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BenBrooke450&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/BenBrooke450/Python-Scikit-Learn.git",
-    "accountId": "926c8e9f-4898-4530-acdd-c5c1a6624df5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BenBrooke450/Python-Scikit-Learn.git&quot;,
+    &quot;accountId&quot;: &quot;926c8e9f-4898-4530-acdd-c5c1a6624df5&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -45,18 +52,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.1.1. Linear Models.executor": "Run",
-    "Python.2.Linear Regression.executor": "Run",
-    "Python.3.Linear Regression.executor": "Run",
-    "Python.Linear Regression.executor": "Run",
-    "Python.tester.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1.1. Linear Models.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.Logistic Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.Linear Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.Linear Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.Linear Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.Model.predict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Linear Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tester.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression" />
@@ -110,7 +120,31 @@
       <option name="project" value="LOCAL" />
       <updated>1741219386627</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1741482270592</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741482270592</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1741482438255</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741482438255</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1741910305927</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741910305927</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

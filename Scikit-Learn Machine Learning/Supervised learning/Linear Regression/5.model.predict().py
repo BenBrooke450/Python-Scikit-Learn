@@ -4,7 +4,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LinearRegression
 from IPython.display import display
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix
@@ -67,13 +67,13 @@ Index(['age', 'bmi', 'children', 'charges', 'sex_female', 'sex_male',
 
 
 
-X = df[['children',
+X = df[['age', 'bmi', 'children', 'sex_female', 'sex_male',
        'smoker_no', 'smoker_yes', 'region_northeast', 'region_northwest',
        'region_southeast', 'region_southwest']]
 
-#y = df['charges'] can`t use as this is a continuous column, we're looking for binary outcomes
+y = df['charges']
 
-y = df['sex_female']
+
 
 
 
@@ -82,64 +82,54 @@ y = df['sex_female']
 # Split data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Initialize and train the model
-model = LogisticRegression()
+# Initialize and train the model (fit is done in place, no need to attach to variable)
+model = LinearRegression()
 model.fit(X_train, y_train)
+
 
 # Make predictions
 y_pred = model.predict(X_test)
 
-# Evaluate the model
-accuracy = accuracy_score(y_test, y_pred)
-conf_matrix = confusion_matrix(y_test, y_pred)
 
+from sklearn.metrics import r2_score
 
-print(accuracy)
-#0.47388059701492535
+r2 = r2_score(y_test, y_pred)
 
-"""
-An accuracy score of 0.474 (or roughly 47.4%) in a Logistic Regression model
-       suggests that the model is performing worse than random guessing, especially
-       if you have a binary classification task with balanced classes. It’s essential
-       to analyze the situation further to understand why this is happening and what
-       you can do to improve your model. Let’s break this down and explore a
-       few possible reasons and steps to diagnose and improve the performance.
-"""
-
-
-print(conf_matrix)
-"""
-[[59 69]
- [72 68]]
-"""
-
+print(f'R-squared: {r2}')
+#R-squared: 0.7835929767120723
 
 """
-True Negatives (TN) = 59
-False Positives (FP) = 69
-False Negatives (FN) = 72
-True Positives (TP) = 68
+Imagine you're trying to predict house prices (y_test) based
+       on features like square footage, number of rooms, etc.
+       If your model's R-squared value is 0.7836, it means that
+       78.36% of the variation in house prices can be explained
+       by the features you've included in the model. The remaining
+       21.64% could be due to other factors not included in the
+       model (e.g., location, market trends, etc.).
 
-What do these values mean?
-True Negatives (TN): The model correctly predicted negative instances (class 0). Here, 59 instances were correctly classified as negative.
-False Positives (FP): The model incorrectly predicted positive (class 1) when the true label was negative (class 0). Here, 69 instances were incorrectly predicted as positive.
-False Negatives (FN): The model incorrectly predicted negative (class 0) when the true label was positive (class 1). Here, 72 instances were incorrectly predicted as negative.
-True Positives (TP): The model correctly predicted positive instances (class 1). Here, 68 instances were correctly classified as positive.
+In Summary:
+R² = 1: Perfect prediction.
+R² = 0: The model doesn't improve upon simply predicting the average.
+0 < R² < 1: The model explains a portion of the variability in the data (for your case, 78.36%).
 """
 
 
 
+reg = LinearRegression().fit(X,y)
+
+reg_score = reg.score(X,y)
+
+print(reg_score)
+#0.5306427503736921
 
 
+"""
+Conclusion:
+Use model.score(X_test, y_test) if you want a quick
+       way to evaluate the model’s performance with minimal code.
 
-
-
-
-
-
-
-
-
-
-
+Use r2_score(y_test, y_pred) if you prefer more
+       control over the prediction process or if
+       you need to manipulate the predictions before evaluating them.
+"""
 
