@@ -1,10 +1,12 @@
 
+
+
+
 import numpy as np
 import pandas as pd
-from sklearn.metrics import confusion_matrix
-from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, confusion_matrix
 
 
 """import kagglehub
@@ -59,27 +61,19 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 
 
-scalar = MinMaxScaler(feature_range=(0,1))
-X_train = scalar.fit_transform(X_train)
-X_test = scalar.fit_transform(X_test)
+LogReg = LogisticRegression(max_iter=10000)
 
+LogReg.fit(X_train,y_train)
 
-knn = KNeighborsClassifier(n_neighbors=10)
-
-knn.fit(X_train,y_train)
-
-y_pred = knn.predict(X_test)
+y_pred = LogReg.predict(X_test)
 
 print(y_pred)
 #['>50K' '<=50K' '<=50K' ... '<=50K' '<=50K' '>50K']
 
 
-
-
-score = knn.score(X_test,y_test)
-print(score)
-#0.7876957723410789
-
+accuracy = accuracy_score(y_test, y_pred)
+print(accuracy)
+#0.7794042378953834
 
 
 cm = confusion_matrix(y_test,y_pred)
@@ -88,6 +82,7 @@ print(cm)
 [[6749  708]
  [1366  946]]
 """
+
 
 
 
