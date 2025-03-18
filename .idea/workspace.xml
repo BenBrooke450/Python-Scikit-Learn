@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
+      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Polynomial Regression/1.Polynomial Regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression/4.Linear Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Linear Regression/4.Linear Regression (Multiple).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/1.Logistic Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/1.Logistic Regression (Multiple).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/2.Logistic Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/2.Logistic Regression (Multiple).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/4.Logistic Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Logistic Regression/4.Logistic Regression (Multiple).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +49,7 @@
     "Python.1.1. Linear Models.executor": "Run",
     "Python.1.K-Nearest Neighbors (kNN).executor": "Run",
     "Python.1.Logistic Regression.executor": "Run",
+    "Python.1.Polynomial Regression.executor": "Run",
     "Python.2.Linear Regression.executor": "Run",
     "Python.2.Logistic Regression.executor": "Run",
     "Python.3.Linear Regression.executor": "Run",
@@ -166,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742252902527</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742255987954</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742255987954</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
