@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Polynomial Regression/1.Polynomial Regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Supervised Machine Learning Regression and Classification Coursera/1.Introduction to Machine Learning/Cost Function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Supervised Machine Learning Regression and Classification Coursera/1.Introduction to Machine Learning/Linear Regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scikit-learn.org/1. Supervised learning/1.1. Linear Models.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +58,7 @@
     "Python.4.Linear Regression.executor": "Run",
     "Python.4.Logistic Regression.executor": "Run",
     "Python.5.Model.predict.executor": "Run",
+    "Python.Cost Function.executor": "Run",
     "Python.Linear Regression.executor": "Run",
     "Python.tester.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -172,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742255987954</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742325576601</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1742325576601</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
