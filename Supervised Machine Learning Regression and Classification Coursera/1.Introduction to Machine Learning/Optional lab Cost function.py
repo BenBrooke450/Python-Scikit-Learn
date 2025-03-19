@@ -1,3 +1,10 @@
+
+
+#https://www.coursera.org/learn/machine-learning/ungradedLab/udPHh/optional-lab-cost-function/lab?path=%2Fnotebooks%2FC1_W1_Lab03_Cost_function_Soln.ipynb
+
+
+
+
 #!/usr/bin/env python
 # coding: utf-8
 
