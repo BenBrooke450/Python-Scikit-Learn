@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Supervised Machine Learning Regression and Classification Coursera/1.Introduction to Machine Learning/Cost Function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Supervised Machine Learning Regression and Classification Coursera/1.Introduction to Machine Learning/Linear Regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning Specialization (Coursera,DeepLearning.AI)/Supervised Machine Learning Regression and Classification/2.Regression with Multiple Input Variables/Multiple Linear Regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scikit-learn.org/1. Supervised learning/1.1. Linear Models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Supervised Machine Learning Regression and Classification Coursera/1.Introduction to Machine Learning/Cost Function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization (Coursera,DeepLearning.AI)/Supervised Machine Learning Regression and Classification/1.Introduction to Machine Learning/Cost Function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Supervised Machine Learning Regression and Classification Coursera/1.Introduction to Machine Learning/Linear Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization (Coursera,DeepLearning.AI)/Supervised Machine Learning Regression and Classification/1.Introduction to Machine Learning/Linear Regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Supervised Machine Learning Regression and Classification Coursera/1.Introduction to Machine Learning/Optional lab Cost function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization (Coursera,DeepLearning.AI)/Supervised Machine Learning Regression and Classification/1.Introduction to Machine Learning/Optional lab Cost function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +184,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742325576601</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742342885947</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1742342885947</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742343025902</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1742343025902</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
