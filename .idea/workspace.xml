@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
       <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/1.Introduction to Machine Learning/C1_W1_Lab03_Cost_function.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/1.Introduction to Machine Learning/C1_W1_Lab03_Cost_function.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/1.Introduction to Machine Learning/C1_W1_Lab04_Gradient_Descent.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/1.Introduction to Machine Learning/C1_W1_Lab04_Gradient_Descent.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +246,47 @@
       <option name="project" value="LOCAL" />
       <updated>1742500849916</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742501451486</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1742501451486</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742501521161</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1742501521161</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742501592904</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1742501592904</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742501631007</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1742501631007</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742501701663</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1742501701663</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
