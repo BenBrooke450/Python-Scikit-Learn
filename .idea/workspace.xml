@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/3..py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/1.Introduction to Machine Learning/1..py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/2.Regression with Multiple Input Variables/2..py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/1.Introduction to Machine Learning/C1_W1_Lab03_Cost_function.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/1.Introduction to Machine Learning/C1_W1_Lab03_Cost_function.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,26 +43,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.1.1. Linear Models.executor": "Run",
-    "Python.1.K-Nearest Neighbors (kNN).executor": "Run",
-    "Python.1.Logistic Regression.executor": "Run",
-    "Python.1.Polynomial Regression.executor": "Run",
-    "Python.2.Linear Regression.executor": "Run",
-    "Python.2.Logistic Regression.executor": "Run",
-    "Python.3.Linear Regression.executor": "Run",
-    "Python.4.Linear Regression.executor": "Run",
-    "Python.4.Logistic Regression.executor": "Run",
-    "Python.5.Model.predict.executor": "Run",
-    "Python.Cost Function.executor": "Run",
-    "Python.Linear Regression.executor": "Run",
-    "Python.tester.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1.1. Linear Models.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.K-Nearest Neighbors (kNN).executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.Logistic Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.Polynomial Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.Linear Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.Logistic Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.Linear Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.Linear Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.Logistic Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.Model.predict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Cost Function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Linear Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tester.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Machine Learning Specialization (Coursera,DeepLearning.AI)" />
@@ -238,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742500599382</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742500849916</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1742500849916</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
