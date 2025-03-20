@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic" />
+    <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab01_Classification_Soln.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab01_Classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab02_Sigmoid_function_Soln.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab02_Sigmoid_function.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab03_Decision_Boundary_Soln.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab03_Decision_Boundary.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab04_LogisticLoss_Soln.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab04_LogisticLoss.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab05_Cost_Function_Soln.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab05_Cost_Function.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab06_Gradient_Descent_Soln.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab06_Gradient_Descent.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab07_Scikit_Learn_Soln.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab07_Scikit_Learn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab08_Overfitting_Soln.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab08_Overfitting.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab09_Regularization_Soln.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/3.Classification/C1_W3_Lab09_Regularization.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -315,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742502540112</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742504726894</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1742504726894</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
