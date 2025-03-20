@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
-      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/2.Regression with Multiple Input Variables/2..py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/2.Regression with Multiple Input Variables/C1_W2_Lab02_Multiple_Variable_Soln.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/2.Regression with Multiple Input Variables/C1_W2_Lab02_Multiple_Variable.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/2.Regression with Multiple Input Variables/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate_Soln.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/2.Regression with Multiple Input Variables/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/2.Regression with Multiple Input Variables/C1_W2_Lab04_FeatEng_PolyReg_Soln.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera, DeepLearning.AI/Supervised Machine Learning Regression and Classification/2.Regression with Multiple Input Variables/C1_W2_Lab04_FeatEng_PolyReg.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -304,7 +299,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742502125617</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742502455210</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1742502455210</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1742502540112</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1742502540112</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
