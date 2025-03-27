@@ -74,3 +74,67 @@ print(accuracy)
 
 
 
+
+
+
+from sklearn.metrics import precision_score, log_loss
+
+precision = precision_score(y_test, y_pred)
+
+print(f"Precision: {precision}")
+
+#Precision: 0.6379310344827587
+
+"""
+Precision (also known as Positive Predictive Value) is 
+    the proportion of positive predictions that are actually correct.
+"""
+
+
+
+
+
+
+
+
+
+
+"""
+For log loss, you need to get the predicted probabilities 
+(not the predicted class labels). Logistic Regression provides 
+a method predict_proba() that returns the probability estimates for each class.
+
+"""
+
+all = model.predict_proba(X_test)[:]
+
+print(len(all))
+#154
+
+print(all)
+"""
+[[0.72413342 0.27586658]
+ [0.81155622 0.18844378]
+ [0.88551454 0.11448546]
+ [0.83645463 0.16354537]
+ ...
+ ...
+ ...
+"""
+
+
+"""
+predict_proba() returns a 2D array, where the 
+    first column represents the probability of 
+    class 0 (negative class), and the second column 
+    represents the probability of class 1 (positive class). 
+    We are interested in the second column, so we use [:, 1].
+"""
+
+y_pred_prob = model.predict_proba(X_test)[:, 1]
+
+log_loss_value = log_loss(y_test, y_pred_prob)
+
+print(f"Log Loss: {log_loss_value}")
+#Log Loss: 0.5117112508521531
+
