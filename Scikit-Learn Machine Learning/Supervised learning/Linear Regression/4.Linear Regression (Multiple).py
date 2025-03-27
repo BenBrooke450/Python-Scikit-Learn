@@ -186,6 +186,6 @@ sns.regplot(x = X, y = y)
 #ci = Confidence Interval
 sns.regplot(x = X, y = y, ci=None)
 
-plt.show()
+#plt.show()
 
 
