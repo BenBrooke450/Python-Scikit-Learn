@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 
-df = pd.read_csv("/Users/benjaminbrooke/Library/Mobile Documents/com~apple~CloudDocs/housing[1].csv")
+df = pd.read_csv("/Users/benjaminbrooke/.cache/kagglehub/datasets/abhishek14398/Housing/housing.csv")
 
 df = pd.DataFrame(df)
 
@@ -128,7 +128,7 @@ X = df[['median_house_value']]
 reg = LinearRegression().fit(X,y)
 
 reg_score = reg.score(X,y)
-print(reg_score)
+print("(Coefficient of Determination):",reg_score)
 
 plt.scatter(X,y)
 
@@ -136,6 +136,24 @@ plt.show()
 
 
 
+
+
+
+
+
+
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_state=13)
+
+from sklearn.metrics import mean_squared_error
+
+y_pred = reg.predict(X_test)
+
+test = mean_squared_error(y_test,y_pred)
+
+print("MSE:",test)
+#1.9509848570565265
 
 
 

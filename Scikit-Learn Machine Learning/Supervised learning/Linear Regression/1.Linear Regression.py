@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 
-df = pd.read_csv("/Users/benjaminbrooke/Library/Mobile Documents/Data for Leanring/com~apple~CloudDocs/housing[1].csv")
+df = pd.read_csv("/Users/benjaminbrooke/.cache/kagglehub/datasets/abhishek14398/Housing/housing.csv")
 
 df = pd.DataFrame(df)
 
@@ -45,6 +45,7 @@ max,-114.31,41.95,52.0,39320.0,6445.0,35682.0,6082.0,15.0001,500001.0
 df = df.dropna()
 
 X = df[["total_bedrooms"]]
+
 y = df["median_income"]
 
 from sklearn.model_selection import train_test_split
@@ -54,24 +55,24 @@ X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_s
 lr = LinearRegression()
 lr.fit(X_train,y_train)
 
-print(lr.score(X_train, y_train))
+print("(Coefficient of Determination):",lr.score(X_train, y_train))
 #0.00006243646892090116
 
-print(lr.score(X_test, y_test))
+print("(Coefficient of Determination):",lr.score(X_test, y_test))
 #-0.0011210187800025917
 
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+from sklearn.metrics import mean_squared_error
 
 y_pred = lr.predict(X_test)
 
-test = mean_absolute_error(y_test,y_pred)
+test = mean_squared_error(y_test,y_pred)
 
-print(test)
+print("MSE:",test)
 #1.3796590384165641
 
 plt.scatter(X,y)
 
-plt.show()
+#plt.show()
 
 
 
