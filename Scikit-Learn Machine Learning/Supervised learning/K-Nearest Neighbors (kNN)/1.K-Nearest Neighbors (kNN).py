@@ -57,11 +57,21 @@ y = df['income']
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=11)
 
-
-
 scalar = MinMaxScaler(feature_range=(0,1))
 X_train = scalar.fit_transform(X_train)
-X_test = scalar.fit_transform(X_test)
+
+#Only X_train is fitted with the scaler.
+
+X_test_scaled = scalar.transform(X_test)
+
+"""
+# Initialize StandardScaler
+scaler = StandardScaler()
+
+# Fit the scaler to the data and transform the data
+X_train_scaled = scaler.fit_transform(X_train)
+"""
+
 
 
 knn = KNeighborsClassifier(n_neighbors=10)
@@ -75,11 +85,9 @@ print(y_pred)
 
 
 
-
 score = knn.score(X_test,y_test)
 print(score)
 #0.7876957723410789
-
 
 
 cm = confusion_matrix(y_test,y_pred)

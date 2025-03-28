@@ -66,3 +66,27 @@ plt.ylabel('Target')
 
 
 
+
+
+
+
+
+
+#Let's change the polynomial to = 2
+poly = PolynomialFeatures(degree=2)
+
+X_train_poly = poly.fit_transform(X_train)
+X_test_poly = poly.transform(X_test)
+
+model = LinearRegression()
+model.fit(X_train_poly, y_train)
+
+# Make predictions
+y_pred = model.predict(X_test_poly)
+
+# Visualize the training data and the polynomial fit
+plt.scatter(X_train, y_train, color='blue', label='Training data')
+plt.plot(np.sort(X_train, axis=0), model.predict(poly.transform(np.sort(X_train, axis=0))), color='red', label='Polynomial fit')
+plt.xlabel('Feature')
+plt.ylabel('Target')
+plt.show()
