@@ -41,7 +41,12 @@ Index(['action_type', 'combined_shot_type', 'game_event_id', 'game_id', 'lat',
 
 #df.to_csv('/Users/benjaminbrooke/Downloads/Kaggle Datasets/Kobe Bryant Shot Selection/data.csv', index=False)
 
+df["season"] = df["season"].astype(int)
+
 first_2_seasons = df[df["season"] < 3]
+
+print(len(first_2_seasons))
+#5473
 
 fig = px.bar(x=first_2_seasons["season"], y=first_2_seasons["combined_shot_type"])
 
@@ -90,7 +95,9 @@ first_2_seasons = first_2_seasons.drop(columns =
 
 
 
-first_2_seasons.to_csv('/Users/benjaminbrooke/Downloads/Kaggle Datasets/Kobe Bryant Shot Selection/first_2_seasons.csv', index=False)
+#first_2_seasons.to_csv('/Users/benjaminbrooke/Downloads/Kaggle Datasets/Kobe Bryant Shot Selection/first_2_seasons.csv', index=False)
+
+
 
 
 
@@ -101,10 +108,48 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 
 
+first_2_seasons = first_2_seasons.dropna()
+
+
+print("FIND NULL VALUES:",first_2_seasons["Shot_over_each_game"].isna())
+"""
+FIND NULL VALUES: 1        False
+2        False
+3        False
+4        False
+5        False
+         ...  
+30691    False
+30692    False
+30694    False
+30695    False
+30696    False
+"""
+
+
+rows_with_nan = first_2_seasons[first_2_seasons.isnull().any(axis=1)]
+print("THIS IS THE NULL:  ",rows_with_nan)
+#THIS IS THE NULL:   Empty DataFrame
 
 
 
 
+
+
+
+first_2_seasons.replace(" ", pd.NA, inplace=True)
+
+first_2_seasons = first_2_seasons.dropna()
+
+first_2_seasons = first_2_seasons.dropna(subset=['Shot_over_each_game'])
+
+
+
+
+
+
+
+####### SCIKIT-LEARN #######################################################
 
 from sklearn.preprocessing import OneHotEncoder
 
@@ -140,6 +185,13 @@ Index(['action_type', 'combined_shot_type', 'game_id', 'minutes_remaining',
 
 
 
+first_2_seasons.replace(" ", pd.NA, inplace=True)
+
+first_2_seasons = first_2_seasons.dropna()
+
+first_2_seasons = first_2_seasons.dropna(subset=['Shot_over_each_game'])
+
+
 
 
 
@@ -156,7 +208,6 @@ X = first_2_seasons[['opponent_ATL','opponent_BKN','opponent_BOS',
                      'opponent_UTA','opponent_VAN','opponent_WAS']]
 
 
-first_2_seasons['Shot_over_each_game']
 
 y = first_2_seasons['Shot_over_each_game']
 
@@ -201,42 +252,46 @@ mse = mean_squared_error(y_true=y_test, y_pred=y_pred)  # default=True
 
 
 print("MAE:", mae)
-#MAE: 4276.899491054204
+#MAE: 4.208455138620898
 
 print("MSE:", mse)
-#MSE: 22042582.020160593
-
-
-
-
-
-
-
-# Step 4: Plot the regression line over the training data
-plt.scatter(X_train, y_train, color='blue', label='Training data')  # Actual training data points
-plt.plot(X_train, reg.predict(X_train), color='red', label='Linear regression line')  # Line of best fit
-
-# Optionally, plot test predictions (test data + predictions)
-plt.scatter(X_test, y_pred, color='green', label='Test data predictions')  # Test data predictions
-plt.title('Linear Regression: Salary vs. Years of Experience')
-plt.xlabel('Years of Experience')
-plt.ylabel('Salary')
-plt.legend()
-#plt.show()
-
+#MSE: 26.387335323980704
 
 
 print("Slope (m):", reg.coef_[0])
-#Slope (m): 9449.962321455072
+#Slope (m): -2.17397866758449
 
 print("Intercept (b):", reg.intercept_)
-#Intercept (b): 24848.203966523222
+#Intercept (b): 21.351398022423428
 
-"""
-Slope (m) = 5000: For each additional year of experience, the salary increases by 5000 units.
+###########################################################
 
-Intercept (b) = 35000: When years of experience is zero, the starting salary is 35000.
-"""
+
+
+first_2_seasons = first_2_seasons.drop(columns =['opponent_ATL','opponent_BKN','opponent_BOS',
+                                                  'opponent_CHA','opponent_CHI','opponent_CLE',
+                                                  'opponent_DAL','opponent_DEN','opponent_DET',
+                                                  'opponent_GSW','opponent_HOU','opponent_IND',
+                                                  'opponent_LAC','opponent_MEM','opponent_MIA',
+                                                  'opponent_MIL','opponent_MIN','opponent_NJN',
+                                                  'opponent_NOH','opponent_NOP','opponent_NYK',
+                                                  'opponent_OKC','opponent_ORL','opponent_PHI',
+                                                  'opponent_PHX','opponent_POR','opponent_SAC',
+                                                  'opponent_SAS','opponent_SEA','opponent_TOR',
+                                                  'opponent_UTA','opponent_VAN','opponent_WAS'])
+
+
+
+
+first_2_seasons["dates_rank"] = first_2_seasons.groupby(["game_date","opponent"]).cumcount() + 1
+
+score_per_game = first_2_seasons[first_2_seasons["dates_rank"] == 1]
+
+fig_3 = px.bar(x=score_per_game["opponent"], y=score_per_game["Shot_over_each_game"])
+fig_3.update_xaxes(categoryorder='total ascending')
+fig_3.show()
+
+
 
 
 
