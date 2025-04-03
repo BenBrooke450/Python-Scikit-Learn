@@ -149,7 +149,7 @@ first_2_seasons = first_2_seasons.dropna(subset=['Shot_over_each_game'])
 
 
 
-####### SCIKIT-LEARN #######################################################
+####### SCIKIT-LEARN ####################################################### SECTION 2
 
 from sklearn.preprocessing import OneHotEncoder
 
@@ -264,7 +264,12 @@ print("Slope (m):", reg.coef_[0])
 print("Intercept (b):", reg.intercept_)
 #Intercept (b): 21.351398022423428
 
-###########################################################
+
+
+
+############################################################## SECTION 3
+
+
 
 
 
@@ -283,13 +288,121 @@ first_2_seasons = first_2_seasons.drop(columns =['opponent_ATL','opponent_BKN','
 
 
 
-first_2_seasons["dates_rank"] = first_2_seasons.groupby(["game_date","opponent"]).cumcount() + 1
+first_2_seasons["dates_rank"] = (first_2_seasons.
+                                 groupby(["game_date","opponent"]).cumcount() + 1)
 
 score_per_game = first_2_seasons[first_2_seasons["dates_rank"] == 1]
 
 fig_3 = px.bar(x=score_per_game["opponent"], y=score_per_game["Shot_over_each_game"])
+
 fig_3.update_xaxes(categoryorder='total ascending')
-fig_3.show()
+
+#fig_3.show()
+
+
+
+fig_4 = px.bar(x=score_per_game["opponent"],
+               y=score_per_game["Shot_over_each_game"],color=score_per_game["combined_shot_type"])
+
+fig_4.update_xaxes(categoryorder='total ascending')
+
+#fig_4.show()
+
+
+
+
+
+
+
+############################################################## SECTION 4
+
+
+
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, confusion_matrix
+
+
+
+first_2_seasons["shot_zone_range_num"] = np.where(first_2_seasons["shot_zone_range"] == "Less Than 8 ft.",0
+                                                  ,np.where(first_2_seasons["shot_zone_range"] == "8-16 ft.", 1
+                                                            ,np.where(first_2_seasons["shot_zone_range"] == "16-24 ft.", 2
+                                                                      ,np.where(first_2_seasons["shot_zone_range"] == "24+ ft.", 3,None)))
+                                                  )
+print(first_2_seasons)
+"""
+              action_type combined_shot_type  ...  dates_rank  shot_zone_range_num
+1               Jump Shot          Jump Shot  ...           1                    1
+2               Jump Shot          Jump Shot  ...           2                    2
+3               Jump Shot          Jump Shot  ...           3                    2
+4       Driving Dunk Shot               Dunk  ...           4                    0
+5               Jump Shot          Jump Shot  ...           5                    1
+...                   ...                ...  ...         ...                  ...
+30691  Driving Layup Shot              Layup  ...          19                    0
+30692           Jump Shot          Jump Shot  ...          20                    0
+30694   Running Jump Shot          Jump Shot  ...          21                    2
+30695           Jump Shot          Jump Shot  ...          22                    3
+30696           Jump Shot          Jump Shot  ...          23                    0
+"""
+
+
+
+df_2 = first_2_seasons
+print(df_2["action_type"].unique())
+"""
+['Jump Shot' 'Driving Dunk Shot' 'Layup Shot' 'Running Jump Shot'
+ 'Reverse Dunk Shot' 'Slam Dunk Shot' 'Driving Layup Shot'
+ 'Turnaround Jump Shot' 'Reverse Layup Shot' 'Tip Shot'
+ 'Running Hook Shot' 'Alley Oop Dunk Shot' 'Dunk Shot'
+ 'Alley Oop Layup shot' 'Running Dunk Shot' 'Driving Finger Roll Shot'
+ 'Running Layup Shot' 'Finger Roll Shot' 'Fadeaway Jump Shot'
+ 'Follow Up Dunk Shot' 'Hook Shot' 'Turnaround Hook Shot'
+ 'Driving Hook Shot']
+"""
+
+
+df_2["combined_shot_type_num"] = pd.factorize(df_2["combined_shot_type"])[0]
+
+df_2["opponent_num"] = pd.factorize(df_2["opponent"])[0]
+
+X = df_2[["combined_shot_type_num",
+       'minutes_remaining', 'period', 'season', 'seconds_remaining',
+       'shot_distance', "opponent_num"]]
+
+y = df_2['shot_made_flag']
+
+
+
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Initialize and train the model
+model = LogisticRegression()
+
+model.fit(X_train, y_train)
+
+# Make predictions
+y_pred = model.predict(X_test)
+
+
+
+accuracy = accuracy_score(y_test, y_pred)
+
+conf_matrix = confusion_matrix(y_test, y_pred)
+
+print(accuracy)
+#0.6093579978237215
+
+
+print(conf_matrix)
+"""
+[[365 149]
+ [210 195]]
+"""
+
+
+
+
 
 
 
