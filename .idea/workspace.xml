@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
+      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Decision Trees/2.Decision Trees.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scikit-Learn Practice/Kaggle/1.Kobe Bryant Shot Selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Practice/Kaggle/1.Kobe Bryant Shot Selection.py" afterDir="false" />
     </list>
@@ -44,34 +45,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.1.1. Linear Models.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.K-Nearest Neighbors (kNN).executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.Kobe Bryant Shot Selection.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.Linear Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.Logistic Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.Polynomial Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.Linear Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.Logistic Regression (Multiple).executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.Logistic Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.Polynomial Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.Linear Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.Linear Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.Logistic Regression (Multiple).executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.Logistic Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5.Logistic Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5.Model.predict.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Cost Function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Linear Regression and Gradient Descent.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Linear Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tester.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1.1. Linear Models.executor": "Run",
+    "Python.1.K-Nearest Neighbors (kNN).executor": "Run",
+    "Python.1.Kobe Bryant Shot Selection.executor": "Run",
+    "Python.1.Linear Regression.executor": "Run",
+    "Python.1.Logistic Regression.executor": "Run",
+    "Python.1.Polynomial Regression.executor": "Run",
+    "Python.2.Linear Regression.executor": "Run",
+    "Python.2.Logistic Regression (Multiple).executor": "Run",
+    "Python.2.Logistic Regression.executor": "Run",
+    "Python.2.Polynomial Regression.executor": "Run",
+    "Python.3.Linear Regression.executor": "Run",
+    "Python.4.Linear Regression.executor": "Run",
+    "Python.4.Logistic Regression (Multiple).executor": "Run",
+    "Python.4.Logistic Regression.executor": "Run",
+    "Python.5.Logistic Regression.executor": "Run",
+    "Python.5.Model.predict.executor": "Run",
+    "Python.Cost Function.executor": "Run",
+    "Python.Linear Regression and Gradient Descent.executor": "Run",
+    "Python.Linear Regression.executor": "Run",
+    "Python.tester.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/benjaminbrooke/PycharmProjects/Python_Scikit-Learn/Scikit-Learn Machine Learning/Supervised learning/Decision Trees",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Decision Trees" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Machine Learning Specialization (Coursera,DeepLearning.AI)" />
       <recent name="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Lineaer Regression" />
@@ -80,7 +86,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-6a3326d57233-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.24807.21" />
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
@@ -421,7 +427,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743707713611</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1743718879092</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1743718879092</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

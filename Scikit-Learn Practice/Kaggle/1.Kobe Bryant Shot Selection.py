@@ -318,6 +318,9 @@ fig_4.update_xaxes(categoryorder='total ascending')
 
 
 
+
+
+
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix
 
@@ -399,6 +402,20 @@ print(conf_matrix)
 [[365 149]
  [210 195]]
 """
+
+
+
+df_2 = df_2[(df_2["game_date"] == "2000-10-31") | (df_2["game_date"] == "2000-11-01")]
+
+X = df_2[["combined_shot_type_num",
+       'minutes_remaining', 'period', 'season', 'seconds_remaining',
+       'shot_distance', "opponent_num"]]
+
+df_2['predicted_class'] = model.predict(X)
+
+print(df_2)
+
+df_2.to_csv('/Users/benjaminbrooke/Downloads/Kaggle Datasets/Kobe Bryant Shot Selection/first_two_games_predict.csv', index=False)
 
 
 
