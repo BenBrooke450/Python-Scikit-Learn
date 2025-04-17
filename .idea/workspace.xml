@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Decision Trees/2.Decision Trees.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scikit-Learn Practice/Kaggle/1.Kobe Bryant Shot Selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn Practice/Kaggle/1.Kobe Bryant Shot Selection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera/Supervised Machine Learning Regression and Classification/1.Introduction to Machine Learning/C1_W1_Lab02_Model_Representation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera/Supervised Machine Learning Regression and Classification/1.Introduction to Machine Learning/C1_W1_Lab02_Model_Representation.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
     "Python.1.1. Linear Models.executor": "Run",
     "Python.1.K-Nearest Neighbors (kNN).executor": "Run",
     "Python.1.Kobe Bryant Shot Selection.executor": "Run",
+    "Python.1.Linear Models.executor": "Run",
     "Python.1.Linear Regression.executor": "Run",
     "Python.1.Logistic Regression.executor": "Run",
     "Python.1.Polynomial Regression.executor": "Run",
@@ -435,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743718879092</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1744211127221</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1744211127221</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
