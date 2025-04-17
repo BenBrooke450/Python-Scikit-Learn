@@ -50,6 +50,7 @@ scaler = StandardScaler()
 	
 	# Fit and transform
 X_scaled_train = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
 
 model.fit(X_scaled_train,y_train)
 
@@ -59,6 +60,35 @@ print ('Coefficients: ', model.coef_) # with simple linear regression there is o
 print ('Intercept: ',model.intercept_)
 
 coefficients = model.coef_
+features = X.columns
+coef_df = pd.DataFrame({
+    'Feature': features,
+    'Coefficient': coefficients
+}).sort_values(by='Coefficient', ascending=True)
+plt.figure(figsize=(8, 5))
+plt.barh(coef_df['Feature'], coef_df['Coefficient'], color='skyblue')
+plt.axvline(0, color='grey', linestyle='--')
+plt.title('Feature Impact (Linear Regression Coefficients)')
+plt.xlabel('Coefficient Value')
+plt.tight_layout()
+plt.show()
+
+X_scaled = scaler.fit_transform(X)
+print(model.score(X_scaled,y))
+
+X = df[['MODELYEAR', 'ENGINESIZE', 'CYLINDERS','FUELCONSUMPTION_COMB']]
+y = df["CO2EMISSIONS"]
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2,random_state=42)
+scaler = StandardScaler()
+	
+X_scaled_train = scaler.fit_transform(X_train)
+model_2 = LinearRegression()
+model_2.fit(X_scaled_train,y_train)
+X_scaled = scaler.fit_transform(X)
+print(model_2.score(X_scaled,y))
+
+coefficients = model_2.coef_
 features = X.columns
 coef_df = pd.DataFrame({
     'Feature': features,

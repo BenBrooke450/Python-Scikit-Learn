@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning Specialization - Coursera/Supervised Machine Learning Regression and Classification/1.Introduction to Machine Learning/C1_W1_Lab02_Model_Representation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Specialization - Coursera/Supervised Machine Learning Regression and Classification/1.Introduction to Machine Learning/C1_W1_Lab02_Model_Representation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scikit-Learn.org/Supervised Learning/1.Linear Models/2.Multiple Linear Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn.org/Supervised Learning/1.Linear Models/2.Multiple Linear Regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scikit-Learn.org/Supervised Learning/1.Linear Models/2.Multiple Linear Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn.org/Supervised Learning/1.Linear Models/2.Multiple Linear Regression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,12 +71,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/benjaminbrooke/PycharmProjects/Python_Scikit-Learn/Scikit-Learn Machine Learning/Supervised learning/Decision Trees",
+    "last_opened_file_path": "/Users/benjaminbrooke/PycharmProjects/Python_Scikit-Learn/Scikit-Learn.org/Supervised Learning/1.Linear Models",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Scikit-Learn.org/Supervised Learning/1.Linear Models" />
       <recent name="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Decision Trees" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -443,7 +445,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744211127221</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1744890363916</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1744890363916</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1744900866051</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1744900866051</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
