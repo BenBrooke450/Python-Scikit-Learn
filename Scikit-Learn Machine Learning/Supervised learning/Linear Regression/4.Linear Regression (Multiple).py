@@ -103,18 +103,6 @@ print(reg_score)
 #0.08940589967885804
 
 
-"""
-import seaborn as sns
-
-sns.regplot(x = X, y = y)
-
-#ci = Confidence Interval
-
-sns.regplot(x = X, y = y, ci=None)
-
-plt.show()
-"""
-
 
 
 
