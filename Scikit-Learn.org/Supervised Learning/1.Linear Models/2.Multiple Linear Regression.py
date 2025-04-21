@@ -83,17 +83,23 @@ X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2,random_sta
 scaler = StandardScaler()
 	
 X_scaled_train = scaler.fit_transform(X_train)
+
 model_2 = LinearRegression()
+
 model_2.fit(X_scaled_train,y_train)
+
 X_scaled = scaler.fit_transform(X)
 print(model_2.score(X_scaled,y))
 
 coefficients = model_2.coef_
 features = X.columns
+
 coef_df = pd.DataFrame({
     'Feature': features,
     'Coefficient': coefficients
 }).sort_values(by='Coefficient', ascending=True)
+
+
 plt.figure(figsize=(8, 5))
 plt.barh(coef_df['Feature'], coef_df['Coefficient'], color='skyblue')
 plt.axvline(0, color='grey', linestyle='--')
