@@ -12,10 +12,9 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 X = df[['MODELYEAR', 'ENGINESIZE', 'CYLINDERS','FUELCONSUMPTION_COMB']]
 y = df["CO2EMISSIONS"]
+
 # Sample data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
-
-
 # Always scale for Ridge!
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
@@ -34,6 +33,7 @@ coef_df = pd.DataFrame({
     'Feature': features,
     'Coefficient': coefficients
 }).sort_values(by='Coefficient', ascending=True)
+
 
 plt.figure(figsize=(8, 5))
 plt.barh(coef_df['Feature'], coef_df['Coefficient'], color='skyblue')
