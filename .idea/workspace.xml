@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Scikit-Learn.org/Supervised Learning/1.Linear Models/4.Lasso Regression.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scikit-Learn.org/Supervised Learning/1.Linear Models/4.Lasso Regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scikit-Learn.org/Supervised Learning/1.Linear Models/5.Logistic Regression.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scikit-Learn.org/Supervised Learning/1.Linear Models/5.Logistic Regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scikit-Learn.org/Supervised Learning/1.Linear Models/3.Ridge Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn.org/Supervised Learning/1.Linear Models/3.Ridge Regression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -486,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745195104520</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1745237129642</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1745237129642</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
