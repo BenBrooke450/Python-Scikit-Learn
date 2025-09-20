@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54093561-5666-469a-9f45-ddd3764d5a2e" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Naive Bayes/1.Spam Detector/READ ME.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Naive Bayes/1.Spam Detector/Spam Detector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scikit-Learn Learned Library/0.Functions/LabelEncoder().md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,37 +43,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.1.1. Linear Models.executor": "Run",
-    "Python.1.K-Nearest Neighbors (kNN).executor": "Run",
-    "Python.1.Kobe Bryant Shot Selection.executor": "Run",
-    "Python.1.Linear Models.executor": "Run",
-    "Python.1.Linear Regression.executor": "Run",
-    "Python.1.Logistic Regression.executor": "Run",
-    "Python.1.Polynomial Regression.executor": "Run",
-    "Python.2.Linear Regression.executor": "Run",
-    "Python.2.Logistic Regression (Multiple).executor": "Run",
-    "Python.2.Logistic Regression.executor": "Run",
-    "Python.2.Polynomial Regression.executor": "Run",
-    "Python.3.Linear Regression.executor": "Run",
-    "Python.4.Linear Regression.executor": "Run",
-    "Python.4.Logistic Regression (Multiple).executor": "Run",
-    "Python.4.Logistic Regression.executor": "Run",
-    "Python.5.Logistic Regression.executor": "Run",
-    "Python.5.Model.predict.executor": "Run",
-    "Python.Cost Function.executor": "Run",
-    "Python.Linear Regression and Gradient Descent.executor": "Run",
-    "Python.Linear Regression.executor": "Run",
-    "Python.Spam Detector.executor": "Run",
-    "Python.tester.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/benjaminbrooke/PycharmProjects/Python_Scikit-Learn/Scikit-Learn Machine Learning/Supervised learning/Naive Bayes",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1.1. Linear Models.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.K-Nearest Neighbors (kNN).executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.Kobe Bryant Shot Selection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.Linear Models.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.Linear Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.Logistic Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.Polynomial Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.Linear Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.Logistic Regression (Multiple).executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.Logistic Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.Polynomial Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.Linear Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.Linear Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.Logistic Regression (Multiple).executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.Logistic Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.Logistic Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.Model.predict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Cost Function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Linear Regression and Gradient Descent.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Linear Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Spam Detector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tester.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/benjaminbrooke/PycharmProjects/Python_Scikit-Learn/Scikit-Learn Machine Learning/Supervised learning/Naive Bayes&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Scikit-Learn Machine Learning/Supervised learning/Naive Bayes" />
@@ -91,7 +90,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
+        <option value="bundled-python-sdk-82724e2b1abb-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.28293.52" />
       </set>
     </attachedChunks>
   </component>
@@ -103,22 +102,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741119487347</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1741910305927</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1741910305927</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Basic">
-      <option name="closed" value="true" />
-      <created>1742159862256</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1742159862256</updated>
     </task>
     <task id="LOCAL-00009" summary="Basic">
       <option name="closed" value="true" />
@@ -496,7 +479,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751303661638</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1752273511351</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1752273511352</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1752274825843</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1752274825843</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
